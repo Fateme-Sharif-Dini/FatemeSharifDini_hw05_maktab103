@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.countainer {
+  align-items: center;
+  border: 1px solid rgb(109, 46, 167);
+  border-radius: 2%;
+  background-color: rgb(109, 46, 167);
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: space-around;
+  margin: 100px auto;
+  width: 450px;
+  font-family: "Blinker", sans-serif;
+  font-family: "Roboto", sans-serif;
+  /* background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  ); */
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+
+.img {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  margin-top: 20px;
+  width: 120px;
+}
+
+.reg {
+  height: 90px;
+  width: 90px;
+}
+
+.login {
+  align-content: center;
+  color: white;
+  display: flex;
+  font-size: 20px;
+  padding-top: 12px;
+}
+
+.baseline-person {
+  align-items: start;
+  color: white;
+  display: flex;
+  height: 16px;
+  padding-top: 6px;
+}
+
+.username {
+  border-bottom: 0.25px solid #fff;
+  width: 250px;
+}
+
+.password {
+  align-items: start;
+  color: white;
+  display: flex;
+  height: 25px;
+}
+
+.label {
+  color: #fff;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.rememberMe {
+  height: 16px;
+}
+
+.input {
+  color: white;
+  font-size: 12px;
+}
+
+.submit {
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 10px;
+  height: 60px;
+  width: 120px;
+}
+
+.forget {
+  color: #fff;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 50px 0 8px;
+}
+
+.rem {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 100px;
+  gap: 5px;
+}
+
+.submit:hover{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.forget:hover{
+  font-size: 15px;
+  font-weight: bold;
+}

@@ -1,6 +1,3 @@
-//Global Variable
-let counterValue = 0;
-
 //Object Methodes
 let stepCounter = {
   counterValue: 0,
@@ -20,13 +17,13 @@ let stepCounter = {
   },
 
   read() {
-    let counterValue = 0;
+    const counterValue = 0;
     console.log(counterValue);
     return stepCounter;
   },
 };
 
-let stepCounterResult = stepCounter.increase().increase();
+const stepCounterResult = stepCounter.increase().increase();
 console.log(stepCounterResult);
 
 // console.log(stepCounterResult);
